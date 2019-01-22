@@ -1,4 +1,4 @@
-1548122742a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2905:"description = "Default layout"
+1548129346a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1805:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -15,74 +15,22 @@
     {% partial "slides" %}
 </section><!--/#main-slider-->
     
-<section id="cta" class="wow fadeIn">
-    <div class="container">
-        <div class="row">
-            {% content 'cta.htm' %}
-        </div>
-    </div>
-</section><!--/#cta-->
 
-<section id="features">
-    {% partial "features" %}
-</section><!--/#features-->
-
-<section id="cta2">
-    <div class="container">
-        <div class="text-center">
-            {% partial "cta2" %}
-        </div>
-    </div>
-</section>
-
-<section id="services" >
-    {% partial "services" %}
+<section id="servicos" >
+    {% partial "servicos" %}
 </section><!--/#services-->
 
-<section id="portfolio">
-    {% partial "portfolio" %}
-</section><!--/#portfolio-->
-
-<section id="about">
-    {% partial "about" %}
-</section><!--/#about-->
-
-<section id="work-process">
-    <div class="container">
-        {% content 'process.htm' %}
-    </div>
-</section><!--/#work-process-->
-
-<section id="meet-team">
-    {% partial "team" %}
-</section><!--/#meet-team-->
-
-<section id="animated-number">
-    {% content 'facts.htm' %}
-</section><!--/#animated-number-->
-
-<section id="pricing">
-    {% partial "pricing" %}
-</section><!--/#pricing-->
-
-<section id="testimonial">
-    {% partial "feedback" %}
-</section><!--/#testimonial-->
+<section id="quemsomos">
+    {% partial "quemsomos" %}
+</section><!--/#quemsomosr-->
+    
 
 <section id="blog">
     {% partial "blogs" %}
 </section><!--/#blog-->
 
-<section id="get-in-touch">
-    <div class="container">
-        <div class="section-header">
-            {% content 'precontact.htm' %}
-        </div>
-    </div>
-</section><!--/#get-in-touch-->
-
-<section id="contact">
-    {% partial "contact" %}
+<section id="contato">
+    {% partial "contato" %}
 </section><!--/#contact-->
 
 <footer id="footer">
@@ -104,7 +52,7 @@
 {% scripts %}
 
 </body>
-</html>";s:5:"mtime";i:1548121786;s:6:"markup";s:2871:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1548128745;s:6:"markup";s:1769:"<!DOCTYPE html>
 <html lang="en">
     {% partial "meta" %}
 
@@ -119,74 +67,22 @@
     {% partial "slides" %}
 </section><!--/#main-slider-->
     
-<section id="cta" class="wow fadeIn">
-    <div class="container">
-        <div class="row">
-            {% content 'cta.htm' %}
-        </div>
-    </div>
-</section><!--/#cta-->
 
-<section id="features">
-    {% partial "features" %}
-</section><!--/#features-->
-
-<section id="cta2">
-    <div class="container">
-        <div class="text-center">
-            {% partial "cta2" %}
-        </div>
-    </div>
-</section>
-
-<section id="services" >
-    {% partial "services" %}
+<section id="servicos" >
+    {% partial "servicos" %}
 </section><!--/#services-->
 
-<section id="portfolio">
-    {% partial "portfolio" %}
-</section><!--/#portfolio-->
-
-<section id="about">
-    {% partial "about" %}
-</section><!--/#about-->
-
-<section id="work-process">
-    <div class="container">
-        {% content 'process.htm' %}
-    </div>
-</section><!--/#work-process-->
-
-<section id="meet-team">
-    {% partial "team" %}
-</section><!--/#meet-team-->
-
-<section id="animated-number">
-    {% content 'facts.htm' %}
-</section><!--/#animated-number-->
-
-<section id="pricing">
-    {% partial "pricing" %}
-</section><!--/#pricing-->
-
-<section id="testimonial">
-    {% partial "feedback" %}
-</section><!--/#testimonial-->
+<section id="quemsomos">
+    {% partial "quemsomos" %}
+</section><!--/#quemsomosr-->
+    
 
 <section id="blog">
     {% partial "blogs" %}
 </section><!--/#blog-->
 
-<section id="get-in-touch">
-    <div class="container">
-        <div class="section-header">
-            {% content 'precontact.htm' %}
-        </div>
-    </div>
-</section><!--/#get-in-touch-->
-
-<section id="contact">
-    {% partial "contact" %}
+<section id="contato">
+    {% partial "contato" %}
 </section><!--/#contact-->
 
 <footer id="footer">

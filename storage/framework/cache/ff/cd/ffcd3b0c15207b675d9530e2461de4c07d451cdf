@@ -1,4 +1,4 @@
-1548122743a:1:{s:10:"slides.htm";a:5:{s:8:"fileName";s:10:"slides.htm";s:7:"content";s:1912:"        <div class="owl-carousel">
+1548128782a:1:{s:10:"slides.htm";a:5:{s:8:"fileName";s:10:"slides.htm";s:7:"content";s:1912:"        <div class="owl-carousel">
             <div class="item" style="background-image: url({{ 'assets/images/slider/bg1.jpg'|theme }});">
                 <div class="slider-inner">
                     <div class="container">

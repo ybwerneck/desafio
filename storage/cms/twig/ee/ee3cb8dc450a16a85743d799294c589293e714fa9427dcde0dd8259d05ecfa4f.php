@@ -50,198 +50,96 @@ class __TwigTemplate_9dbb48f8cbe95af644663e63a28390c327f135af018fdfd6175ae04fb1e
         // line 14
         echo "</section><!--/#main-slider-->
     
-<section id=\"cta\" class=\"wow fadeIn\">
-    <div class=\"container\">
-        <div class=\"row\">
-            ";
+
+<section id=\"servicos\" >
+    ";
+        // line 18
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("servicos"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
         // line 19
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("cta.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 20
-        echo "        </div>
-    </div>
-</section><!--/#cta-->
-
-<section id=\"features\">
-    ";
-        // line 25
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("features"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 26
-        echo "</section><!--/#features-->
-
-<section id=\"cta2\">
-    <div class=\"container\">
-        <div class=\"text-center\">
-            ";
-        // line 31
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("cta2"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 32
-        echo "        </div>
-    </div>
-</section>
-
-<section id=\"services\" >
-    ";
-        // line 37
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("services"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 38
         echo "</section><!--/#services-->
 
-<section id=\"portfolio\">
+<section id=\"quemsomos\">
     ";
-        // line 41
+        // line 22
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("portfolio"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("quemsomos"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 42
-        echo "</section><!--/#portfolio-->
-
-<section id=\"about\">
-    ";
-        // line 45
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("about"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 46
-        echo "</section><!--/#about-->
-
-<section id=\"work-process\">
-    <div class=\"container\">
-        ";
-        // line 50
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("process.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 51
-        echo "    </div>
-</section><!--/#work-process-->
-
-<section id=\"meet-team\">
-    ";
-        // line 55
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("team"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 56
-        echo "</section><!--/#meet-team-->
-
-<section id=\"animated-number\">
-    ";
-        // line 59
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("facts.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 60
-        echo "</section><!--/#animated-number-->
-
-<section id=\"pricing\">
-    ";
-        // line 63
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("pricing"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 64
-        echo "</section><!--/#pricing-->
-
-<section id=\"testimonial\">
-    ";
-        // line 67
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("feedback"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 68
-        echo "</section><!--/#testimonial-->
+        // line 23
+        echo "</section><!--/#quemsomosr-->
+    
 
 <section id=\"blog\">
     ";
-        // line 71
+        // line 27
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("blogs"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 72
+        // line 28
         echo "</section><!--/#blog-->
 
-<section id=\"get-in-touch\">
-    <div class=\"container\">
-        <div class=\"section-header\">
-            ";
-        // line 77
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("precontact.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 78
-        echo "        </div>
-    </div>
-</section><!--/#get-in-touch-->
-
-<section id=\"contact\">
+<section id=\"contato\">
     ";
-        // line 83
+        // line 31
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contact"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contato"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 84
+        // line 32
         echo "</section><!--/#contact-->
 
 <footer id=\"footer\">
     ";
-        // line 87
+        // line 35
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 88
+        // line 36
         echo "</footer><!--/#footer-->
 
     <script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?sensor=true\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 91
+        // line 39
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 92
+        // line 40
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.min.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 93
+        // line 41
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/owl.carousel.min.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 94
+        // line 42
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/mousescroll.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 95
+        // line 43
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/smoothscroll.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 96
+        // line 44
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.prettyPhoto.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 97
+        // line 45
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.isotope.min.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 98
+        // line 46
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.inview.min.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 99
+        // line 47
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/wow.min.js");
         echo "\"></script>
     <script type=\"text/javascript\" src=\"";
-        // line 100
+        // line 48
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
 ";
-        // line 101
+        // line 49
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -256,10 +154,10 @@ class __TwigTemplate_9dbb48f8cbe95af644663e63a28390c327f135af018fdfd6175ae04fb1e
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 102
+        // line 50
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 103
+        // line 51
         echo "
 </body>
 </html>";
@@ -277,7 +175,7 @@ class __TwigTemplate_9dbb48f8cbe95af644663e63a28390c327f135af018fdfd6175ae04fb1e
 
     public function getDebugInfo()
     {
-        return array (  263 => 103,  260 => 102,  245 => 101,  241 => 100,  237 => 99,  233 => 98,  229 => 97,  225 => 96,  221 => 95,  217 => 94,  213 => 93,  209 => 92,  205 => 91,  200 => 88,  196 => 87,  191 => 84,  187 => 83,  180 => 78,  176 => 77,  169 => 72,  165 => 71,  160 => 68,  156 => 67,  151 => 64,  147 => 63,  142 => 60,  138 => 59,  133 => 56,  129 => 55,  123 => 51,  119 => 50,  113 => 46,  109 => 45,  104 => 42,  100 => 41,  95 => 38,  91 => 37,  84 => 32,  80 => 31,  73 => 26,  69 => 25,  62 => 20,  58 => 19,  51 => 14,  47 => 13,  42 => 10,  38 => 9,  31 => 4,  27 => 3,  23 => 1,);
+        return array (  161 => 51,  158 => 50,  143 => 49,  139 => 48,  135 => 47,  131 => 46,  127 => 45,  123 => 44,  119 => 43,  115 => 42,  111 => 41,  107 => 40,  103 => 39,  98 => 36,  94 => 35,  89 => 32,  85 => 31,  80 => 28,  76 => 27,  70 => 23,  66 => 22,  61 => 19,  57 => 18,  51 => 14,  47 => 13,  42 => 10,  38 => 9,  31 => 4,  27 => 3,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -297,74 +195,22 @@ class __TwigTemplate_9dbb48f8cbe95af644663e63a28390c327f135af018fdfd6175ae04fb1e
     {% partial \"slides\" %}
 </section><!--/#main-slider-->
     
-<section id=\"cta\" class=\"wow fadeIn\">
-    <div class=\"container\">
-        <div class=\"row\">
-            {% content 'cta.htm' %}
-        </div>
-    </div>
-</section><!--/#cta-->
 
-<section id=\"features\">
-    {% partial \"features\" %}
-</section><!--/#features-->
-
-<section id=\"cta2\">
-    <div class=\"container\">
-        <div class=\"text-center\">
-            {% partial \"cta2\" %}
-        </div>
-    </div>
-</section>
-
-<section id=\"services\" >
-    {% partial \"services\" %}
+<section id=\"servicos\" >
+    {% partial \"servicos\" %}
 </section><!--/#services-->
 
-<section id=\"portfolio\">
-    {% partial \"portfolio\" %}
-</section><!--/#portfolio-->
-
-<section id=\"about\">
-    {% partial \"about\" %}
-</section><!--/#about-->
-
-<section id=\"work-process\">
-    <div class=\"container\">
-        {% content 'process.htm' %}
-    </div>
-</section><!--/#work-process-->
-
-<section id=\"meet-team\">
-    {% partial \"team\" %}
-</section><!--/#meet-team-->
-
-<section id=\"animated-number\">
-    {% content 'facts.htm' %}
-</section><!--/#animated-number-->
-
-<section id=\"pricing\">
-    {% partial \"pricing\" %}
-</section><!--/#pricing-->
-
-<section id=\"testimonial\">
-    {% partial \"feedback\" %}
-</section><!--/#testimonial-->
+<section id=\"quemsomos\">
+    {% partial \"quemsomos\" %}
+</section><!--/#quemsomosr-->
+    
 
 <section id=\"blog\">
     {% partial \"blogs\" %}
 </section><!--/#blog-->
 
-<section id=\"get-in-touch\">
-    <div class=\"container\">
-        <div class=\"section-header\">
-            {% content 'precontact.htm' %}
-        </div>
-    </div>
-</section><!--/#get-in-touch-->
-
-<section id=\"contact\">
-    {% partial \"contact\" %}
+<section id=\"contato\">
+    {% partial \"contato\" %}
 </section><!--/#contact-->
 
 <footer id=\"footer\">
