@@ -1,0 +1,4 @@
+title: Slider_controller
+modelClass: Yan\Slider\Models\Slide
+toolbar:
+    buttons: reorder_toolbar
