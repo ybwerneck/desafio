@@ -1,4 +1,8 @@
+<<<<<<< HEAD:storage/framework/cache/e1/c1/e1c1f4e39b0b65063c9d0ba7059e5f33221bfa48
 1548462985a:1:{s:13:"quemsomos.htm";a:6:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:704:"==
+=======
+1548348105a:1:{s:13:"quemsomos.htm";a:6:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:704:"==
+>>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/e1/c1/e1c1f4e39b0b65063c9d0ba7059e5f33221bfa48
 <div class="container">
 
             <div class="section-header">
@@ -14,7 +18,11 @@
                 <div class="col-sm-6 wow fadeInRight">
                     {% content 'about/capabilities.htm' %}
                 </div>
+<<<<<<< HEAD:storage/framework/cache/e1/c1/e1c1f4e39b0b65063c9d0ba7059e5f33221bfa48
         </div>";s:5:"mtime";i:1548175709;s:6:"markup";s:700:"<div class="container">
+=======
+        </div>";s:5:"mtime";i:1548163967;s:6:"markup";s:700:"<div class="container">
+>>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/e1/c1/e1c1f4e39b0b65063c9d0ba7059e5f33221bfa48
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">About Us</h2>

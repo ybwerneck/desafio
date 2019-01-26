@@ -1,0 +1,20 @@
+fields:
+    titulo:
+        label: Titulo
+        span: auto
+        type: text
+    descricao:
+        label: Descricao
+        span: auto
+        type: text
+    image:
+        label: Imagem
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        cssClass: ''
+        imageHeight: '600'
+        type: fileupload

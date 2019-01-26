@@ -154,10 +154,10 @@ jQuery(function($) {'use strict';
 	$(document).ready(function() {
 		//Animated Progress
 		$('.progress-bar').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
-			if (visible) {
+			
 				$(this).css('width', $(this).data('width') + '%');
 				$(this).unbind('inview');
-			}
+			
 		});
 
 		//Animated Number

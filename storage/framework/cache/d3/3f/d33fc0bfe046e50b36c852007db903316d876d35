@@ -1,4 +1,8 @@
+<<<<<<< HEAD:storage/framework/cache/d3/3f/d33fc0bfe046e50b36c852007db903316d876d35
 1548462985a:1:{s:22:"about/capabilities.htm";a:6:{s:8:"fileName";s:22:"about/capabilities.htm";s:7:"content";s:1440:"                    <h3 class="column-title">Multi Capability</h3>
+=======
+1548348105a:1:{s:22:"about/capabilities.htm";a:6:{s:8:"fileName";s:22:"about/capabilities.htm";s:7:"content";s:1440:"                    <h3 class="column-title">Multi Capability</h3>
+>>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/d3/3f/d33fc0bfe046e50b36c852007db903316d876d35
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -22,7 +26,11 @@
                     <a class="btn btn-primary" href="#">Learn More</a>
 
                 </div>
+<<<<<<< HEAD:storage/framework/cache/d3/3f/d33fc0bfe046e50b36c852007db903316d876d35
 ";s:5:"mtime";i:1548175709;s:6:"markup";s:1418:"<h3 class="column-title">Multi Capability</h3>
+=======
+";s:5:"mtime";i:1548163966;s:6:"markup";s:1418:"<h3 class="column-title">Multi Capability</h3>
+>>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/d3/3f/d33fc0bfe046e50b36c852007db903316d876d35
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

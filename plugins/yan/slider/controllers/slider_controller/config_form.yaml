@@ -1,0 +1,10 @@
+name: Slider_controller
+form: $/yan/slider/models/slide/fields.yaml
+modelClass: Yan\Slider\Models\Slide
+defaultRedirect: yan/slider/slider_controller
+create:
+    redirect: 'yan/slider/slider_controller/update/:id'
+    redirectClose: yan/slider/slider_controller
+update:
+    redirect: yan/slider/slider_controller
+    redirectClose: yan/slider/slider_controller
