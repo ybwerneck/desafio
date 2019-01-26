@@ -1,12 +1,8 @@
-<<<<<<< HEAD:storage/framework/cache/da/c0/dac04897cd03f1d6b1e91aeea4147494a15ca1b7
-1548462983a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1877:"description = "Default layout"
+1548464148a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1877:"description = "Default layout"
 
 [contactForm]
 injectBootstrapAssets = 1
 injectMainScript = 1
-=======
-1548348048a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1805:"description = "Default layout"
->>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/da/c0/dac04897cd03f1d6b1e91aeea4147494a15ca1b7
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -61,11 +57,7 @@ injectMainScript = 1
 {% scripts %}
 
 </body>
-<<<<<<< HEAD:storage/framework/cache/da/c0/dac04897cd03f1d6b1e91aeea4147494a15ca1b7
 </html>";s:5:"mtime";i:1548457416;s:6:"markup";s:1775:"<!DOCTYPE html>
-=======
-</html>";s:5:"mtime";i:1548163967;s:6:"markup";s:1769:"<!DOCTYPE html>
->>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/da/c0/dac04897cd03f1d6b1e91aeea4147494a15ca1b7
 <html lang="en">
     {% partial "meta" %}
 
