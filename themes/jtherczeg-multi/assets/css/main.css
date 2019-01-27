@@ -886,6 +886,10 @@ ul.nostyle i {
   position: relative;
   overflow: hidden;
 }
+.gps{
+  position: relative;
+  margin-top: 50px;
+}
 #contact .container-wrapper {
   position: absolute;
   top: 0;
@@ -899,6 +903,9 @@ ul.nostyle i {
   background: rgba(255, 255, 255, 0.8);
   padding: 20px;
   margin-top: 50px;
+}
+.contato-botn{
+  margin-bottom: 10px;
 }
 #contact .contact-form h3 {
   margin-top: 0;
@@ -925,11 +932,18 @@ ul.nostyle i {
 }
 #footer ul > li {
   display: inline-block;
-  margin: 0 7.5px;
+  margin: 0 10.5px;
+}
+#footer h3{
+  color:  #45aed6;
 }
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
-    float: right;
+    /* float: right; */
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
   }
 }
 .form-control {
