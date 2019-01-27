@@ -6,6 +6,6 @@ plugin:
     homepage: ''
 navigation:
     main-menu-item:
-        label: 'Menu Item'
+        label: Slides
         url: yan/slider/slider_controller
-        icon: icon-life-ring
+        icon: icon-slideshare

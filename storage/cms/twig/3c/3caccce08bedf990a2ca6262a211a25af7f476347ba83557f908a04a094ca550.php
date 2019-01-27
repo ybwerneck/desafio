@@ -21,97 +21,112 @@ class __TwigTemplate_15fdb07910ef5f9141b4a97f1907ed30424ad4ba9327910ab38e0616668
     {
         // line 1
         echo "<div class=\"container\">
-            <div class=\"section-header\">
+
+    <div class=\"section-header\">
+            
+            {
+                    
                 <h2 class=\"section-title text-center wow fadeInDown\">Latest Blogs</h2>
                 <p class=\"text-center wow fadeInDown\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
-
             <div class=\"row\">
+                    
                 <div class=\"col-sm-6\">
                     <div class=\"blog-post blog-large wow fadeInLeft\" data-wow-duration=\"300ms\" data-wow-delay=\"0ms\">
-                        <article>
+                            ";
+        // line 14
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_slice($this->env, ($context["posts"] ?? null), 0, 1));
+        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+            // line 15
+            echo "                        <article>
+                            
                             <header class=\"entry-header\">
                                 <div class=\"entry-thumbnail\">
                                     <img class=\"img-responsive\" src=\"";
-        // line 13
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/blog/01.jpg");
-        echo "\" alt=\"\">
-                                    <span class=\"post-format post-format-video\"><i class=\"fa fa-film\"></i></span>
-                                </div>
-                                <div class=\"entry-date\">25 November 2014</div>
-                                <h2 class=\"entry-title\"><a href=\"#\">While now the fated Pequod had been so long afloat this</a></h2>
-                            </header>
+            // line 19
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_first($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "featured_images", array())), "path", array()), "html", null, true);
+            echo "\" alt=\"\">
+                                     </div>
+                                <div class=\"entry-date\">";
+            // line 21
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "published_at", array()), "M d, Y"), "html", null, true);
+            echo "</div>
+                                <h2 class=\"entry-title\"><a href=\"#\">";
+            // line 22
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "summary", array()), "html", null, true);
+            echo "      </header>
 
                             <div class=\"entry-content\">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                                <a class=\"btn btn-primary\" href=\"#\">Read More</a>
+                                <P>";
+            // line 25
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "text", array()), "html", null, true);
+            echo "</P>
+                                <a class=\"btn btn-primary\" href=\"#\">Leia Mais</a>
                             </div>
 
-                            <footer class=\"entry-meta\">
-                                <span class=\"entry-author\"><i class=\"fa fa-pencil\"></i> <a href=\"#\">Victor</a></span>
-                                <span class=\"entry-category\"><i class=\"fa fa-folder-o\"></i> <a href=\"#\">Tutorial</a></span>
-                                <span class=\"entry-comments\"><i class=\"fa fa-comments-o\"></i> <a href=\"#\">15</a></span>
-                            </footer>
+                           
                         </article>
-                    </div>
-                </div><!--/.col-sm-6-->
+                                    ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 32
+        echo "                </div><!--/.col-sm-6-->
+                </div>
+
                 <div class=\"col-sm-6\">
+                    
+                    ";
+        // line 37
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_slice($this->env, ($context["posts"] ?? null), 1, 2));
+        foreach ($context['_seq'] as $context["_key"] => $context["post"]) {
+            // line 38
+            echo "                    
                     <div class=\"blog-post blog-media wow fadeInRight\" data-wow-duration=\"300ms\" data-wow-delay=\"100ms\">
                         <article class=\"media clearfix\">
-                            <div class=\"entry-thumbnail pull-left\">
+                            <div class=\"entry-thumbnail pull-left\">             
                                 <img class=\"img-responsive\" src=\"";
-        // line 37
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/blog/02.jpg");
-        echo "\" alt=\"\">
-                                <span class=\"post-format post-format-gallery\"><i class=\"fa fa-image\"></i></span>
-                            </div>
+            // line 42
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_first($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "featured_images", array())), "path", array()), "html", null, true);
+            echo "\" alt=\"\">
+                              </div>
+                              <br>
                             <div class=\"media-body\">
                                 <header class=\"entry-header\">
-                                    <div class=\"entry-date\">01 December 2014</div>
-                                    <h2 class=\"entry-title\"><a href=\"#\">BeReviews was a awesome envent in dhaka</a></h2>
+                                    <div class=\"entry-date\">";
+            // line 47
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "published_at", array()), "M d, Y"), "html", null, true);
+            echo "</div>
+                                    <h2 class=\"entry-title\"><a href=\"#\">";
+            // line 48
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "title", array()), "html", null, true);
+            echo "</a></h2>
                                 </header>
 
                                 <div class=\"entry-content\">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class=\"btn btn-primary\" href=\"#\">Read More</a>
+                                    <P>";
+            // line 52
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "summary", array()), "html", null, true);
+            echo "</P>
+                                    <a class=\"btn btn-primary\" href=\"#\">Leia Mais</a>
                                 </div>
 
-                                <footer class=\"entry-meta\">
-                                    <span class=\"entry-author\"><i class=\"fa fa-pencil\"></i> <a href=\"#\">Campbell</a></span>
-                                    <span class=\"entry-category\"><i class=\"fa fa-folder-o\"></i> <a href=\"#\">Tutorial</a></span>
-                                    <span class=\"entry-comments\"><i class=\"fa fa-comments-o\"></i> <a href=\"#\">15</a></span>
-                                </footer>
+                                
                             </div>
                         </article>
                     </div>
-                    <div class=\"blog-post blog-media wow fadeInRight\" data-wow-duration=\"300ms\" data-wow-delay=\"200ms\">
-                        <article class=\"media clearfix\">
-                            <div class=\"entry-thumbnail pull-left\">
-                                <img class=\"img-responsive\" src=\"";
+
+                    ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['post'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
         // line 62
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/blog/03.jpg");
-        echo "\" alt=\"\">
-                                <span class=\"post-format post-format-audio\"><i class=\"fa fa-music\"></i></span>
-                            </div>
-                            <div class=\"media-body\">
-                                <header class=\"entry-header\">
-                                    <div class=\"entry-date\">03 November 2014</div>
-                                    <h2 class=\"entry-title\"><a href=\"#\">Play list of old bangle  music and gajal</a></h2>
-                                </header>
-
-                                <div class=\"entry-content\">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class=\"btn btn-primary\" href=\"#\">Read More</a>
-                                </div>
-
-                                <footer class=\"entry-meta\">
-                                    <span class=\"entry-author\"><i class=\"fa fa-pencil\"></i> <a href=\"#\">Ruth</a></span>
-                                    <span class=\"entry-category\"><i class=\"fa fa-folder-o\"></i> <a href=\"#\">Tutorial</a></span>
-                                    <span class=\"entry-comments\"><i class=\"fa fa-comments-o\"></i> <a href=\"#\">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
+        echo "                    
+                    
                 </div>
             </div>
 
@@ -130,94 +145,74 @@ class __TwigTemplate_15fdb07910ef5f9141b4a97f1907ed30424ad4ba9327910ab38e0616668
 
     public function getDebugInfo()
     {
-        return array (  92 => 62,  64 => 37,  37 => 13,  23 => 1,);
+        return array (  128 => 62,  112 => 52,  105 => 48,  101 => 47,  93 => 42,  87 => 38,  83 => 37,  76 => 32,  63 => 25,  57 => 22,  53 => 21,  48 => 19,  42 => 15,  38 => 14,  23 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("<div class=\"container\">
-            <div class=\"section-header\">
+
+    <div class=\"section-header\">
+            
+            {
+                    
                 <h2 class=\"section-title text-center wow fadeInDown\">Latest Blogs</h2>
                 <p class=\"text-center wow fadeInDown\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
-
             <div class=\"row\">
+                    
                 <div class=\"col-sm-6\">
                     <div class=\"blog-post blog-large wow fadeInLeft\" data-wow-duration=\"300ms\" data-wow-delay=\"0ms\">
+                            {%for post in posts| slice(0,1)%}
                         <article>
+                            
                             <header class=\"entry-header\">
                                 <div class=\"entry-thumbnail\">
-                                    <img class=\"img-responsive\" src=\"{{ 'assets/images/blog/01.jpg'|theme }}\" alt=\"\">
-                                    <span class=\"post-format post-format-video\"><i class=\"fa fa-film\"></i></span>
-                                </div>
-                                <div class=\"entry-date\">25 November 2014</div>
-                                <h2 class=\"entry-title\"><a href=\"#\">While now the fated Pequod had been so long afloat this</a></h2>
-                            </header>
+                                    <img class=\"img-responsive\" src=\"{{ post.featured_images|first.path }}\" alt=\"\">
+                                     </div>
+                                <div class=\"entry-date\">{{ post.published_at|date('M d, Y') }}</div>
+                                <h2 class=\"entry-title\"><a href=\"#\">{{post.summary}}      </header>
 
                             <div class=\"entry-content\">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                                <a class=\"btn btn-primary\" href=\"#\">Read More</a>
+                                <P>{{post.text}}</P>
+                                <a class=\"btn btn-primary\" href=\"#\">Leia Mais</a>
                             </div>
 
-                            <footer class=\"entry-meta\">
-                                <span class=\"entry-author\"><i class=\"fa fa-pencil\"></i> <a href=\"#\">Victor</a></span>
-                                <span class=\"entry-category\"><i class=\"fa fa-folder-o\"></i> <a href=\"#\">Tutorial</a></span>
-                                <span class=\"entry-comments\"><i class=\"fa fa-comments-o\"></i> <a href=\"#\">15</a></span>
-                            </footer>
+                           
                         </article>
-                    </div>
+                                    {% endfor %}
                 </div><!--/.col-sm-6-->
+                </div>
+
                 <div class=\"col-sm-6\">
+                    
+                    {% for post in posts| slice(1,2)%}
+                    
                     <div class=\"blog-post blog-media wow fadeInRight\" data-wow-duration=\"300ms\" data-wow-delay=\"100ms\">
                         <article class=\"media clearfix\">
-                            <div class=\"entry-thumbnail pull-left\">
-                                <img class=\"img-responsive\" src=\"{{ 'assets/images/blog/02.jpg'|theme }}\" alt=\"\">
-                                <span class=\"post-format post-format-gallery\"><i class=\"fa fa-image\"></i></span>
-                            </div>
+                            <div class=\"entry-thumbnail pull-left\">             
+                                <img class=\"img-responsive\" src=\"{{ post.featured_images|first.path }}\" alt=\"\">
+                              </div>
+                              <br>
                             <div class=\"media-body\">
                                 <header class=\"entry-header\">
-                                    <div class=\"entry-date\">01 December 2014</div>
-                                    <h2 class=\"entry-title\"><a href=\"#\">BeReviews was a awesome envent in dhaka</a></h2>
+                                    <div class=\"entry-date\">{{ post.published_at|date('M d, Y') }}</div>
+                                    <h2 class=\"entry-title\"><a href=\"#\">{{post.title}}</a></h2>
                                 </header>
 
                                 <div class=\"entry-content\">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class=\"btn btn-primary\" href=\"#\">Read More</a>
+                                    <P>{{post.summary}}</P>
+                                    <a class=\"btn btn-primary\" href=\"#\">Leia Mais</a>
                                 </div>
 
-                                <footer class=\"entry-meta\">
-                                    <span class=\"entry-author\"><i class=\"fa fa-pencil\"></i> <a href=\"#\">Campbell</a></span>
-                                    <span class=\"entry-category\"><i class=\"fa fa-folder-o\"></i> <a href=\"#\">Tutorial</a></span>
-                                    <span class=\"entry-comments\"><i class=\"fa fa-comments-o\"></i> <a href=\"#\">15</a></span>
-                                </footer>
+                                
                             </div>
                         </article>
                     </div>
-                    <div class=\"blog-post blog-media wow fadeInRight\" data-wow-duration=\"300ms\" data-wow-delay=\"200ms\">
-                        <article class=\"media clearfix\">
-                            <div class=\"entry-thumbnail pull-left\">
-                                <img class=\"img-responsive\" src=\"{{ 'assets/images/blog/03.jpg'|theme }}\" alt=\"\">
-                                <span class=\"post-format post-format-audio\"><i class=\"fa fa-music\"></i></span>
-                            </div>
-                            <div class=\"media-body\">
-                                <header class=\"entry-header\">
-                                    <div class=\"entry-date\">03 November 2014</div>
-                                    <h2 class=\"entry-title\"><a href=\"#\">Play list of old bangle  music and gajal</a></h2>
-                                </header>
 
-                                <div class=\"entry-content\">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class=\"btn btn-primary\" href=\"#\">Read More</a>
-                                </div>
-
-                                <footer class=\"entry-meta\">
-                                    <span class=\"entry-author\"><i class=\"fa fa-pencil\"></i> <a href=\"#\">Ruth</a></span>
-                                    <span class=\"entry-category\"><i class=\"fa fa-folder-o\"></i> <a href=\"#\">Tutorial</a></span>
-                                    <span class=\"entry-comments\"><i class=\"fa fa-comments-o\"></i> <a href=\"#\">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
+                    {%   endfor    %}
+                    
+                    
                 </div>
             </div>
 

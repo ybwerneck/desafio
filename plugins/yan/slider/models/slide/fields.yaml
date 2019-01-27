@@ -8,13 +8,12 @@ fields:
         span: auto
         type: text
     image:
-        label: Imagem
+        label: Slide
+        span: auto
         mode: image
         useCaption: true
         thumbOptions:
             mode: crop
             extension: auto
-        span: auto
-        cssClass: ''
-        imageHeight: '600'
         type: fileupload
+        tab: 'Tab 1'

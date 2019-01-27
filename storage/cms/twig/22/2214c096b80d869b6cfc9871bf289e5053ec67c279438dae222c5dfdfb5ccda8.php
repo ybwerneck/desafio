@@ -43,43 +43,13 @@ class __TwigTemplate_3cbf3ee9f5b88a962c55df306774ed3a041291fecab337598ee7f66103a
                     </div>
                 </div>
             </div>           
-            <div class=\"item\" style=\"background-image: url(";
-            // line 17
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["slide"], "image", array()), "thumb", array(0 => 400, 1 => 400, 2 => "crop"), "method"), "html", null, true);
-            echo ");\">
-                <div class=\"slider-inner\">
-                    <div class=\"container\">
-                        <div class=\"row\">
-                            <div class=\"col-sm-6\">
-                                <div class=\"carousel-content\">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"item\" style=\"background-image: url(";
-            // line 29
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["slide"], "image", array()), "thumb", array(0 => 400, 1 => 400, 2 => "crop"), "method"), "html", null, true);
-            echo ");\">
-                <div class=\"slider-inner\">
-                    <div class=\"container\">
-                        <div class=\"row\">
-                            <div class=\"col-sm-6\">
-                                <div class=\"carousel-content\">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          
+            
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['slide'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 43
+        // line 19
         echo "        
         </div><!--/.owl-carousel-->";
     }
@@ -96,7 +66,7 @@ class __TwigTemplate_3cbf3ee9f5b88a962c55df306774ed3a041291fecab337598ee7f66103a
 
     public function getDebugInfo()
     {
-        return array (  83 => 43,  63 => 29,  48 => 17,  33 => 5,  29 => 3,  25 => 2,  23 => 1,);
+        return array (  53 => 19,  33 => 5,  29 => 3,  25 => 2,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -117,31 +87,7 @@ class __TwigTemplate_3cbf3ee9f5b88a962c55df306774ed3a041291fecab337598ee7f66103a
                     </div>
                 </div>
             </div>           
-            <div class=\"item\" style=\"background-image: url({{ slide.image.thumb (400,400,'crop') }});\">
-                <div class=\"slider-inner\">
-                    <div class=\"container\">
-                        <div class=\"row\">
-                            <div class=\"col-sm-6\">
-                                <div class=\"carousel-content\">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=\"item\" style=\"background-image: url({{ slide.image.thumb (400,400,'crop') }});\">
-                <div class=\"slider-inner\">
-                    <div class=\"container\">
-                        <div class=\"row\">
-                            <div class=\"col-sm-6\">
-                                <div class=\"carousel-content\">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          
+            
             {% endfor %}
         
         </div><!--/.owl-carousel-->", "C:\\xampp\\htdocs\\desafio/themes/jtherczeg-multi/partials/slides.htm", "");
