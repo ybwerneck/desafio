@@ -38,14 +38,10 @@ class __TwigTemplate_38d51cdd760e11d79526d2ad3669db378708e6f5cd946910bde2f445861
                 <div class=\"collapse navbar-collapse navbar-right\">
                     <ul class=\"nav navbar-nav\">
                         <li class=\"scroll active\"><a href=\"#home\">Home</a></li>
-                        <li class=\"scroll\"><a href=\"#features\">Features</a></li>
-                        <li class=\"scroll\"><a href=\"#services\">Services</a></li>
-                        <li class=\"scroll\"><a href=\"#portfolio\">Portfolio</a></li>
-                        <li class=\"scroll\"><a href=\"#about\">About</a></li>
-                        <li class=\"scroll\"><a href=\"#meet-team\">Team</a></li>
-                        <li class=\"scroll\"><a href=\"#pricing\">Pricing</a></li>
+                        <li class=\"scroll\"><a href=\"#servicos\">Serviços</a></li>
+                        <li class=\"scroll\"><a href=\"#quemsomos\">Quem Somos</a></li>
                         <li class=\"scroll\"><a href=\"#blog\">Blog</a></li> 
-                        <li class=\"scroll\"><a href=\"#get-in-touch\">Contact</a></li>                        
+                        <li class=\"scroll\"><a href=\"#contato\">Contato</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -84,14 +80,10 @@ class __TwigTemplate_38d51cdd760e11d79526d2ad3669db378708e6f5cd946910bde2f445861
                 <div class=\"collapse navbar-collapse navbar-right\">
                     <ul class=\"nav navbar-nav\">
                         <li class=\"scroll active\"><a href=\"#home\">Home</a></li>
-                        <li class=\"scroll\"><a href=\"#features\">Features</a></li>
-                        <li class=\"scroll\"><a href=\"#services\">Services</a></li>
-                        <li class=\"scroll\"><a href=\"#portfolio\">Portfolio</a></li>
-                        <li class=\"scroll\"><a href=\"#about\">About</a></li>
-                        <li class=\"scroll\"><a href=\"#meet-team\">Team</a></li>
-                        <li class=\"scroll\"><a href=\"#pricing\">Pricing</a></li>
+                        <li class=\"scroll\"><a href=\"#servicos\">Serviços</a></li>
+                        <li class=\"scroll\"><a href=\"#quemsomos\">Quem Somos</a></li>
                         <li class=\"scroll\"><a href=\"#blog\">Blog</a></li> 
-                        <li class=\"scroll\"><a href=\"#get-in-touch\">Contact</a></li>                        
+                        <li class=\"scroll\"><a href=\"#contato\">Contato</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->

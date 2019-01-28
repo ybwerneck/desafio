@@ -20,43 +20,37 @@ class __TwigTemplate_5dc25093ee249a538cee0b97ee7731095c1b23d1de013e81dfbaff9cddc
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"owl-carousel\">
-            <div class=\"item\" style=\"background-image: url(";
+        $context["slides"] = twig_get_attribute($this->env, $this->source, ($context["builderList"] ?? null), "records", array());
         // line 2
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/slider/bg1.jpg");
-        echo ");\">
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["slides"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["slide"]) {
+            // line 3
+            echo "
+<div class=\"owl-carousel\">
+           <div class=\"item\" style=\"background-image: url(";
+            // line 5
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["slide"], "image", array()), "thumb", array(0 => 400, 1 => 400, 2 => "crop"), "method"), "html", null, true);
+            echo ");\">
                 <div class=\"slider-inner\">
                     <div class=\"container\">
                         <div class=\"row\">
                             <div class=\"col-sm-6\">
                                 <div class=\"carousel-content\">
-                                    <h2><span>Multi</span> is the best Onepage html template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class=\"btn btn-primary btn-lg\" href=\"#\">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-             <div class=\"item\" style=\"background-image: url(";
-        // line 17
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/slider/bg2.jpg");
-        echo ");\">
-                <div class=\"slider-inner\">
-                    <div class=\"container\">
-                        <div class=\"row\">
-                            <div class=\"col-sm-6\">
-                                <div class=\"carousel-content\">
-                                    <h2>Beautifully designed <span>free</span> one page template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class=\"btn btn-primary btn-lg\" href=\"#\">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.item-->
+            </div>           
+            
+            ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['slide'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 19
+        echo "        
         </div><!--/.owl-carousel-->";
     }
 
@@ -72,42 +66,30 @@ class __TwigTemplate_5dc25093ee249a538cee0b97ee7731095c1b23d1de013e81dfbaff9cddc
 
     public function getDebugInfo()
     {
-        return array (  44 => 17,  26 => 2,  23 => 1,);
+        return array (  53 => 19,  33 => 5,  29 => 3,  25 => 2,  23 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"owl-carousel\">
-            <div class=\"item\" style=\"background-image: url({{ 'assets/images/slider/bg1.jpg'|theme }});\">
+        return new Twig_Source("{% set slides = builderList.records %}
+{% for slide in slides %}
+
+<div class=\"owl-carousel\">
+           <div class=\"item\" style=\"background-image: url({{ slide.image.thumb (400,400,'crop') }});\">
                 <div class=\"slider-inner\">
                     <div class=\"container\">
                         <div class=\"row\">
                             <div class=\"col-sm-6\">
                                 <div class=\"carousel-content\">
-                                    <h2><span>Multi</span> is the best Onepage html template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class=\"btn btn-primary btn-lg\" href=\"#\">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-             <div class=\"item\" style=\"background-image: url({{ 'assets/images/slider/bg2.jpg'|theme }});\">
-                <div class=\"slider-inner\">
-                    <div class=\"container\">
-                        <div class=\"row\">
-                            <div class=\"col-sm-6\">
-                                <div class=\"carousel-content\">
-                                    <h2>Beautifully designed <span>free</span> one page template</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
-                                    <a class=\"btn btn-primary btn-lg\" href=\"#\">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.item-->
+            </div>           
+            
+            {% endfor %}
+        
         </div><!--/.owl-carousel-->", "C:\\xampp\\htdocs\\desafio/themes/jtherczeg-multi/partials/slides.htm", "");
     }
 }

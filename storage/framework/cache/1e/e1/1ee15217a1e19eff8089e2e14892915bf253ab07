@@ -1,4 +1,4 @@
-1548462985a:1:{s:12:"servicos.htm";a:6:{s:8:"fileName";s:12:"servicos.htm";s:7:"content";s:4842:"==
+1548703915a:1:{s:12:"servicos.htm";a:6:{s:8:"fileName";s:12:"servicos.htm";s:7:"content";s:4842:"==
 <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
@@ -80,11 +80,7 @@
                     </div><!--/.col-md-4-->
                 </div>
             </div><!--/.row-->    
-<<<<<<< HEAD:storage/framework/cache/1e/e1/1ee15217a1e19eff8089e2e14892915bf253ab07
-        </div><!--/.container-->";s:5:"mtime";i:1548175709;s:6:"markup";s:4838:"<div class="container">
-=======
-        </div><!--/.container-->";s:5:"mtime";i:1548163967;s:6:"markup";s:4838:"<div class="container">
->>>>>>> ff8d24c1cbc8efd914d5e8609da87d23d3d77a17:storage/framework/cache/1e/e1/1ee15217a1e19eff8089e2e14892915bf253ab07
+        </div><!--/.container-->";s:5:"mtime";i:1548692863;s:6:"markup";s:4838:"<div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
                 <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
