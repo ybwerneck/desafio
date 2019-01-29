@@ -1,0 +1,5 @@
+fields:
+    quemsomos:
+        label: 'Quem somos'
+        span: full
+        type: text

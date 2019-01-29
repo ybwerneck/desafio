@@ -1,0 +1,97 @@
+1548721168a:1:{s:13:"quemsomos.htm";a:9:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:2230:"[viewBag]
+
+[builderList]
+modelClass = "BraulioBarros\QuemSomos\Models\Quemsomos"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "quemsomos"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList builderList2]
+modelClass = "BraulioBarros\Missao\Models\Missao"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "missao"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList builderList3]
+modelClass = "BraulioBarros\Valores\Models\Valores"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "valores"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Quem somos</h2>
+                {% for record in records %}
+                <p class="text-center wow fadeInDown">{{record.quemsomos}}</p>
+                {% endfor %}
+            </div>
+
+            <div class="row" >
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+                        {% for record in records %}
+                        <p class="text-center wow fadeInDown">{{record.missao}}</p>
+                        {% endfor %}
+                    </div>
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                        {% for record in records %}
+                        <p class="text-center wow fadeInDown">{{record.valores}}</p>
+                        {% endfor %}
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                    {% content 'about/video.htm' %}
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    {% content 'about/capabilities.htm' %}
+                </div>
+        </div>";s:5:"mtime";i:1548719285;s:6:"markup";s:1427:"<div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Quem somos</h2>
+                {% for record in records %}
+                <p class="text-center wow fadeInDown">{{record.quemsomos}}</p>
+                {% endfor %}
+            </div>
+
+            <div class="row" >
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+                        {% for record in records %}
+                        <p class="text-center wow fadeInDown">{{record.missao}}</p>
+                        {% endfor %}
+                    </div>
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                        {% for record in records %}
+                        <p class="text-center wow fadeInDown">{{record.valores}}</p>
+                        {% endfor %}
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                    {% content 'about/video.htm' %}
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    {% content 'about/capabilities.htm' %}
+                </div>
+        </div>";s:4:"code";N;s:7:"viewBag";a:0:{}s:11:"builderList";a:8:{s:10:"modelClass";s:40:"BraulioBarros\QuemSomos\Models\Quemsomos";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:9:"quemsomos";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:24:"builderList builderList2";a:8:{s:10:"modelClass";s:34:"BraulioBarros\Missao\Models\Missao";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:6:"missao";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:24:"builderList builderList3";a:8:{s:10:"modelClass";s:36:"BraulioBarros\Valores\Models\Valores";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:7:"valores";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

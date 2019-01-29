@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: id
+        type: number
+    texto:
+        label: texto
+        type: text
+    descricao:
+        label: descricao
+        type: text
+    titulo:
+        label: titulo
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

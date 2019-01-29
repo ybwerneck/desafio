@@ -1,0 +1,11 @@
+plugin:
+    name: 'brauliobarros.valores::lang.plugin.name'
+    description: 'brauliobarros.valores::lang.plugin.description'
+    author: 'Braulio Barros'
+    icon: oc-icon-file-text
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Valores
+        url: brauliobarros/valores/valores
+        icon: icon-file-text

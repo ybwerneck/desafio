@@ -1,0 +1,65 @@
+[viewBag]
+
+[builderList]
+modelClass = "BraulioBarros\QuemSomos\Models\Quemsomos"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "quemsomos"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList builderList2]
+modelClass = "BraulioBarros\Missao\Models\Missao"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "missao"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList builderList3]
+modelClass = "BraulioBarros\Valores\Models\Valores"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "valores"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Quem somos</h2>
+                {% for record in records %}
+                <p class="text-center wow fadeInDown">{{record.quemsomos}}</p>
+                {% endfor %}
+            </div>
+
+            <div class="row" >
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+                        {% for record in records %}
+                        <p class="text-center wow fadeInDown">{{record.missao}}</p>
+                        {% endfor %}
+                    </div>
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                        {% for record in records %}
+                        <p class="text-center wow fadeInDown">{{record.valores}}</p>
+                        {% endfor %}
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft">
+                    {% content 'about/video.htm' %}
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    {% content 'about/capabilities.htm' %}
+                </div>
+        </div>

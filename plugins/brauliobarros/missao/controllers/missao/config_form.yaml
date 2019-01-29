@@ -1,0 +1,10 @@
+name: Missao
+form: $/brauliobarros/missao/models/missao/fields.yaml
+modelClass: BraulioBarros\Missao\Models\Missao
+defaultRedirect: brauliobarros/missao/missao
+create:
+    redirect: 'brauliobarros/missao/missao/update/:id'
+    redirectClose: brauliobarros/missao/missao
+update:
+    redirect: brauliobarros/missao/missao
+    redirectClose: brauliobarros/missao/missao

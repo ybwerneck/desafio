@@ -1,0 +1,4 @@
+title: Missao
+modelClass: BraulioBarros\Missao\Models\Missao
+toolbar:
+    buttons: reorder_toolbar

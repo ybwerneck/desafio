@@ -1,0 +1,11 @@
+plugin:
+    name: 'yan.slider::lang.plugin.name'
+    description: 'yan.slider::lang.plugin.description'
+    author: yan
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Slides
+        url: yan/slider/slider_controller
+        icon: icon-slideshare

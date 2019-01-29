@@ -1,0 +1,8 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('yan/slider/slider_controler') ?>">Slider_controler</a></li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?= $this->reorderRender() ?>
