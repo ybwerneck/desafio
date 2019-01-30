@@ -62,7 +62,7 @@ class __TwigTemplate_8a15a65b0c67fbbf2e3e27b962ae0fdf0d4e75d6d5ffd7cad54450a1ed5
             // line 25
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "text", array()), "html", null, true);
             echo "</P>
-                                <a class=\"btn btn-primary\" href=\"/index.php/blog/post/";
+                                <a class=\"btn btn-primary\" href=\"index.php/blog/post/";
             // line 26
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["post"], "slug", array()), "html", null, true);
             echo "\">Leia Mais</a>
@@ -181,7 +181,7 @@ class __TwigTemplate_8a15a65b0c67fbbf2e3e27b962ae0fdf0d4e75d6d5ffd7cad54450a1ed5
 
                             <div class=\"entry-content\">
                                 <P>{{post.text}}</P>
-                                <a class=\"btn btn-primary\" href=\"/index.php/blog/post/{{post.slug}}\">Leia Mais</a>
+                                <a class=\"btn btn-primary\" href=\"index.php/blog/post/{{post.slug}}\">Leia Mais</a>
                             </div>
 
                            
