@@ -98,4 +98,10 @@
   'RainLab\\Builder\\Models\\Settings' => 'plugins\\rainlab\\builder\\models\\Settings.php',
   'RainLab\\Pages\\Classes\\Snippet' => 'plugins\\rainlab\\pages\\classes\\Snippet.php',
   'RainLab\\Pages\\Classes\\SnippetManager' => 'plugins\\rainlab\\pages\\classes\\SnippetManager.php',
+  'rainlab\\pages\\Controllers\\index' => 'plugins\\rainlab\\pages\\controllers\\index.php',
+  'RainLab\\Pages\\Widgets\\PageList' => 'plugins\\rainlab\\pages\\widgets\\PageList.php',
+  'RainLab\\Pages\\Widgets\\MenuList' => 'plugins\\rainlab\\pages\\widgets\\MenuList.php',
+  'RainLab\\Pages\\Widgets\\SnippetList' => 'plugins\\rainlab\\pages\\widgets\\SnippetList.php',
+  'RainLab\\Pages\\Classes\\Menu' => 'plugins\\rainlab\\pages\\classes\\Menu.php',
+  'RainLab\\Pages\\Classes\\Content' => 'plugins\\rainlab\\pages\\classes\\Content.php',
 );
