@@ -1,4 +1,4 @@
-1548721168a:1:{s:10:"slides.htm";a:6:{s:8:"fileName";s:10:"slides.htm";s:7:"content";s:964:"[builderList]
+1548958232a:1:{s:10:"slides.htm";a:6:{s:8:"fileName";s:10:"slides.htm";s:7:"content";s:964:"[builderList]
 modelClass = "Yan\Slider\Models\Slide"
 scope = "-"
 scopeValue = "{{ :scope }}"

@@ -1,0 +1,6 @@
+plugin:
+    name: 'brauliobarros.video::lang.plugin.name'
+    description: 'brauliobarros.video::lang.plugin.description'
+    author: 'Braulio Barros'
+    icon: oc-icon-video-camera
+    homepage: ''

@@ -118,4 +118,10 @@
   'brauliobarros\\valores\\Plugin' => 'plugins\\brauliobarros\\valores\\Plugin.php',
   'brauliobarros\\valores\\Controllers\\valores' => 'plugins\\brauliobarros\\valores\\controllers\\valores.php',
   'BraulioBarros\\Valores\\Models\\Valores' => 'plugins\\brauliobarros\\valores\\models\\Valores.php',
+  'brauliobarros\\servicos\\Plugin' => 'plugins\\brauliobarros\\servicos\\Plugin.php',
+  'brauliobarros\\servicos\\Controllers\\servico' => 'plugins\\brauliobarros\\servicos\\controllers\\servico.php',
+  'BraulioBarros\\Servicos\\Models\\Servico' => 'plugins\\brauliobarros\\servicos\\models\\Servico.php',
+  'BraulioBarros\\QuemSomos\\Models\\Missao' => 'plugins\\brauliobarros\\quemsomos\\models\\Missao.php',
+  'brauliobarros\\video\\Plugin' => 'plugins\\brauliobarros\\video\\Plugin.php',
+  'brauliobarros\\servicos\\Controllers\\servicos' => 'plugins\\brauliobarros\\servicos\\controllers\\servicos.php',
 );

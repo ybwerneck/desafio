@@ -1,0 +1,10 @@
+name: Servicos
+form: $/brauliobarros/servicos/models/servico/fields.yaml
+modelClass: BraulioBarros\Servicos\Models\Servico
+defaultRedirect: brauliobarros/servicos/servicos
+create:
+    redirect: 'brauliobarros/servicos/servicos/update/:id'
+    redirectClose: brauliobarros/servicos/servicos
+update:
+    redirect: brauliobarros/servicos/servicos
+    redirectClose: brauliobarros/servicos/servicos
