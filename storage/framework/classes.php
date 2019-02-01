@@ -118,4 +118,5 @@
   'brauliobarros\\servicos\\Controllers\\servicos' => 'plugins\\brauliobarros\\servicos\\controllers\\servicos.php',
   'BraulioBarros\\Servicos\\Models\\Servico' => 'plugins\\brauliobarros\\servicos\\models\\Servico.php',
   'BraulioBarros\\QuemSomos\\Models\\Missao' => 'plugins\\brauliobarros\\quemsomos\\models\\Missao.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
 );

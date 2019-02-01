@@ -5,6 +5,8 @@ noPostsMessage = "No posts found"
 sortOrder = "published_at desc"
 categoryPage = "home"
 postPage = "home"
+
+[viewBag]
 ==
 <div class="container">
 
@@ -31,7 +33,7 @@ postPage = "home"
 
                             <div class="entry-content">
                                 <P>{{post.text}}</P>
-                                <a class="btn btn-primary" href="index.php/blog/post/{{post.slug}}">Leia Mais</a>
+                                <a class="btn btn-primary" href="blog/post/{{post.slug}}">Leia Mais</a>
                             </div>
 
                            
