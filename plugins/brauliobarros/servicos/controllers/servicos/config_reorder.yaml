@@ -1,0 +1,4 @@
+title: Servicos
+modelClass: BraulioBarros\Servicos\Models\Servico
+toolbar:
+    buttons: reorder_toolbar

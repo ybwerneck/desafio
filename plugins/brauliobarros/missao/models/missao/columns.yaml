@@ -1,0 +1,6 @@
+columns:
+    missao:
+        label: Missao
+        type: text
+        searchable: true
+        sortable: true

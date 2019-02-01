@@ -1,0 +1,91 @@
+1548983626a:1:{s:12:"servicos.htm";a:7:{s:8:"fileName";s:12:"servicos.htm";s:7:"content";s:2307:"[viewBag]
+
+[builderList]
+modelClass = "BraulioBarros\Servicos\Models\Servico"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set servicos = builderList.records %}
+
+
+<div class="container">
+        
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Nossos Serviços</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  
+            </div>
+
+
+            <div class="row">
+               
+                <div class="features">              
+                   
+                    {% for servico in servicos %}
+                    
+                       
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInUp;">                    
+                           
+                            <div class="media service-box">
+                                
+                                <div class="pull-left">
+                                        <img class="img-responsive" style="border-radius: 100%;"src="{{ servico.imagem.thumb(150, 150, 'crop') }}" alt="{{servico.nome}}">
+                                        
+                                </div>
+                                <div class="media-body">
+                                
+                                    <h4 class="media-heading" >{{servico.nome}}</h4>                                               
+                                        
+                                    <p>{{servico.descricao}}</p>
+                                                                                
+                                </div>
+                            </div>
+                    </div><!--/.col-md-4-->  
+                     {% endfor %} 
+                </div>          
+            </div><!--/.row-->    
+        </div><!--/.container-->";s:5:"mtime";i:1548983018;s:6:"markup";s:2043:"{% set servicos = builderList.records %}
+
+
+<div class="container">
+        
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Nossos Serviços</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  
+            </div>
+
+
+            <div class="row">
+               
+                <div class="features">              
+                   
+                    {% for servico in servicos %}
+                    
+                       
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInUp;">                    
+                           
+                            <div class="media service-box">
+                                
+                                <div class="pull-left">
+                                        <img class="img-responsive" style="border-radius: 100%;"src="{{ servico.imagem.thumb(150, 150, 'crop') }}" alt="{{servico.nome}}">
+                                        
+                                </div>
+                                <div class="media-body">
+                                
+                                    <h4 class="media-heading" >{{servico.nome}}</h4>                                               
+                                        
+                                    <p>{{servico.descricao}}</p>
+                                                                                
+                                </div>
+                            </div>
+                    </div><!--/.col-md-4-->  
+                     {% endfor %} 
+                </div>          
+            </div><!--/.row-->    
+        </div><!--/.container-->";s:4:"code";N;s:7:"viewBag";a:0:{}s:11:"builderList";a:8:{s:10:"modelClass";s:37:"BraulioBarros\Servicos\Models\Servico";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:2:"id";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

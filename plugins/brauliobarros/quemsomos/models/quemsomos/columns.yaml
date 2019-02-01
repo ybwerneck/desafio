@@ -1,0 +1,6 @@
+columns:
+    quemsomos:
+        label: 'Quem somos'
+        type: text
+        searchable: true
+        sortable: true

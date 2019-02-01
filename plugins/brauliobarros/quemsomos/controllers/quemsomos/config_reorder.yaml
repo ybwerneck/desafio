@@ -1,0 +1,4 @@
+title: Quemsomos
+modelClass: BraulioBarros\QuemSomos\Models\Quemsomos
+toolbar:
+    buttons: reorder_toolbar

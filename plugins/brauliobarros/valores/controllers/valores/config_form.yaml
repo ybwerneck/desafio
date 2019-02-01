@@ -1,0 +1,10 @@
+name: Valores
+form: $/brauliobarros/valores/models/valores/fields.yaml
+modelClass: BraulioBarros\Valores\Models\Valores
+defaultRedirect: brauliobarros/valores/valores
+create:
+    redirect: 'brauliobarros/valores/valores/update/:id'
+    redirectClose: brauliobarros/valores/valores
+update:
+    redirect: brauliobarros/valores/valores
+    redirectClose: brauliobarros/valores/valores

@@ -1,0 +1,11 @@
+plugin:
+    name: 'brauliobarros.servicos::lang.plugin.name'
+    description: 'brauliobarros.servicos::lang.plugin.description'
+    author: 'Braulio Barros'
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Servicos
+        url: brauliobarros/servicos/servicos
+        icon: icon-book
