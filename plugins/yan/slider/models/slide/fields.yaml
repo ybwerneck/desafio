@@ -1,0 +1,19 @@
+fields:
+    titulo:
+        label: Titulo
+        span: auto
+        type: text
+    descricao:
+        label: Descricao
+        span: auto
+        type: text
+    image:
+        label: Slide
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload
+        tab: 'Tab 1'

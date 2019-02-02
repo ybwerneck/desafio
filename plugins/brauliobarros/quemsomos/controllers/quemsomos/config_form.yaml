@@ -1,0 +1,10 @@
+name: Quemsomos
+form: $/brauliobarros/quemsomos/models/quemsomos/fields.yaml
+modelClass: BraulioBarros\QuemSomos\Models\Quemsomos
+defaultRedirect: brauliobarros/quemsomos/quemsomos
+create:
+    redirect: 'brauliobarros/quemsomos/quemsomos/update/:id'
+    redirectClose: brauliobarros/quemsomos/quemsomos
+update:
+    redirect: brauliobarros/quemsomos/quemsomos
+    redirectClose: brauliobarros/quemsomos/quemsomos

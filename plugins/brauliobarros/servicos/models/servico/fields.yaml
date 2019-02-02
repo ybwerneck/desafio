@@ -1,0 +1,20 @@
+fields:
+    nome:
+        label: Nome
+        span: auto
+        type: text
+    descricao:
+        label: Descricao
+        span: full
+        type: text
+    imagem:
+        label: Imagem
+        span: auto
+        mode: image
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '40'
+        imageHeight: '40'
+        type: fileupload

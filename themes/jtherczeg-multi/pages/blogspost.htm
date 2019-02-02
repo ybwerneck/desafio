@@ -1,0 +1,55 @@
+title = "blogs.post"
+url = "/blog/post/:slug"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blogspost"
+==
+<!DOCTYPE html>
+<html lang="en">
+    {% partial "meta" %}
+
+
+<body id="home" class="homepage">
+
+<header id="header">
+    {% partial "nav" %}
+</header><!--/header-->
+
+<div class="section-header">
+    <h2 class="section-title text-center wow post-page">{{post.title}}</h2>  
+</div>
+
+<div class="container">
+        <div class="row justify-content-md-center">
+    
+                <div class="col-sm-12">
+                                      
+                    {% component 'blogPost' %}
+                    
+                </div>
+                
+        </div>
+</div>
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/mousescroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/smoothscroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.inview.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>

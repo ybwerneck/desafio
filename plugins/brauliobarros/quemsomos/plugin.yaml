@@ -1,0 +1,11 @@
+plugin:
+    name: 'brauliobarros.quemsomos::lang.plugin.name'
+    description: 'brauliobarros.quemsomos::lang.plugin.description'
+    author: 'Braulio Barros'
+    icon: oc-icon-file-text-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Quem somos'
+        url: brauliobarros/quemsomos/quemsomos
+        icon: icon-file-text

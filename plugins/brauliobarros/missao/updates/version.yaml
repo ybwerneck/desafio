@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table brauliobarros_missao_'
+    - builder_table_create_brauliobarros_missao_.php
+1.0.3:
+    - 'Updated table brauliobarros_missao_'
+    - builder_table_update_brauliobarros_missao_.php

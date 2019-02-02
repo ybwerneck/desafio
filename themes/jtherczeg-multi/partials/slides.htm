@@ -1,0 +1,31 @@
+[builderList]
+modelClass = "Yan\Slider\Models\Slide"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+
+{% set slides = builderList.records %}
+{% for slide in slides %}
+
+<div class="owl-carousel">
+           <div class="item" style="background-image: url({{ slide.image.thumb (400,400,'crop') }});">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            
+            {% endfor %}
+        
+        </div><!--/.owl-carousel-->

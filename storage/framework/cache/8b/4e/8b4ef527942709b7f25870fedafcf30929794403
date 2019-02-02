@@ -1,0 +1,143 @@
+1549129978a:1:{s:9:"blogs.htm";a:7:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:3392:"[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "home"
+postPage = "home"
+
+[viewBag]
+==
+<div class="container">
+
+    <div class="section-header">
+            
+            {
+                    
+                <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row">
+                    
+                <div class="col-sm-6">
+                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+                            {%for post in posts| slice(0,1)%}
+                        <article>
+                            
+                            <header class="entry-header">
+                                <div class="entry-thumbnail">
+                                    <img class="img-responsive" src="{{ post.featured_images|first.path }}" alt="">
+                                     </div>
+                                <div class="entry-date">{{ post.published_at|date('M d, Y') }}</div>
+                                <h2 class="entry-title"><a href="#">{{post.summary}}      </header>
+
+                            <div class="entry-content">
+                                <P>{{post.text}}</P>
+                                <a class="btn btn-primary" href="blog/post/{{post.slug}}">Leia Mais</a>
+                            </div>
+
+                           
+                        </article>
+                                    {% endfor %}
+                </div><!--/.col-sm-6-->
+                </div>
+
+                <div class="col-sm-6">
+                    
+                    {% for post in posts| slice(1,2)%}
+                    
+                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <article class="media clearfix">
+                            <div class="entry-thumbnail pull-left">             
+                                <img class="img-responsive" src="{{ post.featured_images|first.path }}" alt="">
+                              </div>
+                              <br>
+                            <div class="media-body">
+                                <header class="entry-header">
+                                    <div class="entry-date">{{ post.published_at|date('M d, Y') }}</div>
+                                    <h2 class="entry-title"><a href="#">{{post.title}}</a></h2>
+                                </header>
+
+                                <div class="entry-content">
+                                    <P>{{post.summary}}</P>
+                                    <a class="btn btn-primary" href="index.php/blog/post/{{post.slug}}">Leia Mais</a>
+                                </div>
+
+                                
+                            </div>
+                        </article>
+                    </div>
+
+                    {%   endfor    %}
+                    
+                    
+                </div>
+            </div>
+
+        </div>";s:5:"mtime";i:1549129268;s:6:"markup";s:3205:"<div class="container">
+
+    <div class="section-header">
+            
+            {
+                    
+                <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row">
+                    
+                <div class="col-sm-6">
+                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+                            {%for post in posts| slice(0,1)%}
+                        <article>
+                            
+                            <header class="entry-header">
+                                <div class="entry-thumbnail">
+                                    <img class="img-responsive" src="{{ post.featured_images|first.path }}" alt="">
+                                     </div>
+                                <div class="entry-date">{{ post.published_at|date('M d, Y') }}</div>
+                                <h2 class="entry-title"><a href="#">{{post.summary}}      </header>
+
+                            <div class="entry-content">
+                                <P>{{post.text}}</P>
+                                <a class="btn btn-primary" href="blog/post/{{post.slug}}">Leia Mais</a>
+                            </div>
+
+                           
+                        </article>
+                                    {% endfor %}
+                </div><!--/.col-sm-6-->
+                </div>
+
+                <div class="col-sm-6">
+                    
+                    {% for post in posts| slice(1,2)%}
+                    
+                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <article class="media clearfix">
+                            <div class="entry-thumbnail pull-left">             
+                                <img class="img-responsive" src="{{ post.featured_images|first.path }}" alt="">
+                              </div>
+                              <br>
+                            <div class="media-body">
+                                <header class="entry-header">
+                                    <div class="entry-date">{{ post.published_at|date('M d, Y') }}</div>
+                                    <h2 class="entry-title"><a href="#">{{post.title}}</a></h2>
+                                </header>
+
+                                <div class="entry-content">
+                                    <P>{{post.summary}}</P>
+                                    <a class="btn btn-primary" href="index.php/blog/post/{{post.slug}}">Leia Mais</a>
+                                </div>
+
+                                
+                            </div>
+                        </article>
+                    </div>
+
+                    {%   endfor    %}
+                    
+                    
+                </div>
+            </div>
+
+        </div>";s:4:"code";N;s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:4:"home";s:8:"postPage";s:4:"home";}s:7:"viewBag";a:0:{}}}

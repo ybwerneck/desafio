@@ -1,0 +1,60 @@
+[viewBag]
+
+[builderList]
+modelClass = "BraulioBarros\QuemSomos\Models\Missao"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList builderList2]
+modelClass = "BraulioBarros\Missao\Models\Missao"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[builderList builderList3]
+modelClass = "BraulioBarros\Valores\Models\Valores"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "id"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set quemsomos = builderList.records %}
+{% set missao = builderList2.records %}
+{% set valores = builderList3.records %}
+
+<div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Quem somos</h2>
+                {% for quemsomo in quemsomos %}
+                <p class="text-center wow fadeInDown">{{quemsomo.quemsomos}}</p>
+                {% endfor %}
+            </div>   
+            
+            <div class="row" >
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+                        {% for missa in missao %}
+                        <p class="text-center wow fadeInDown">{{missa.missao}}</p>
+                        {% endfor %}
+                        
+                    </div>
+                    <div class="col-sm-6 section-header">
+                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                        {% for valore in valores %}
+                        <p class="text-center wow fadeInDown">{{valore.valores}}</p>
+                        {% endfor %}
+                    </div>
+            </div>

@@ -1,0 +1,11 @@
+plugin:
+    name: 'brauliobarros.missao::lang.plugin.name'
+    description: 'brauliobarros.missao::lang.plugin.description'
+    author: 'Braulio Barros'
+    icon: oc-icon-file-text
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Missao
+        url: brauliobarros/missao/missao
+        icon: icon-file-text
