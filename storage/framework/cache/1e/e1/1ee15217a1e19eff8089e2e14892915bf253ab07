@@ -1,4 +1,4 @@
-1548988128a:1:{s:12:"servicos.htm";a:7:{s:8:"fileName";s:12:"servicos.htm";s:7:"content";s:2307:"[viewBag]
+1549143272a:1:{s:12:"servicos.htm";a:7:{s:8:"fileName";s:12:"servicos.htm";s:7:"content";s:2307:"[viewBag]
 
 [builderList]
 modelClass = "BraulioBarros\Servicos\Models\Servico"
@@ -49,7 +49,7 @@ pageNumber = "{{ :page }}"
                      {% endfor %} 
                 </div>          
             </div><!--/.row-->    
-        </div><!--/.container-->";s:5:"mtime";i:1548983762;s:6:"markup";s:2043:"{% set servicos = builderList.records %}
+        </div><!--/.container-->";s:5:"mtime";i:1549126056;s:6:"markup";s:2043:"{% set servicos = builderList.records %}
 
 
 <div class="container">

@@ -1,4 +1,4 @@
-1548988128a:1:{s:13:"quemsomos.htm";a:9:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:2062:"[viewBag]
+1549143212a:1:{s:13:"quemsomos.htm";a:9:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:2150:"[viewBag]
 
 [builderList]
 modelClass = "BraulioBarros\QuemSomos\Models\Missao"
@@ -43,22 +43,22 @@ pageNumber = "{{ :page }}"
                 {% endfor %}
             </div>   
             
-            <div class="row" >
-                    <div class="col-sm-6 section-header">
-                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+            <div class="row quemsomos" >
+                    <div class="col-sm-6 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInLeft;">
+                        <h3 class="column-title">Nossa Missão</h3>
                         {% for missa in missao %}
                         <p class="text-center wow fadeInDown">{{missa.missao}}</p>
                         {% endfor %}
                         
                     </div>
-                    <div class="col-sm-6 section-header">
-                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                    <div class="col-sm-6 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <h3 class="column-title">Nossos Valores</h3>
                         {% for valore in valores %}
                         <p class="text-center wow fadeInDown">{{valore.valores}}</p>
                         {% endfor %}
                     </div>
             </div>
-";s:5:"mtime";i:1548983762;s:6:"markup";s:1276:"{% set quemsomos = builderList.records %}
+";s:5:"mtime";i:1549142511;s:6:"markup";s:1364:"{% set quemsomos = builderList.records %}
 {% set missao = builderList2.records %}
 {% set valores = builderList3.records %}
 
@@ -71,16 +71,16 @@ pageNumber = "{{ :page }}"
                 {% endfor %}
             </div>   
             
-            <div class="row" >
-                    <div class="col-sm-6 section-header">
-                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+            <div class="row quemsomos" >
+                    <div class="col-sm-6 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInLeft;">
+                        <h3 class="column-title">Nossa Missão</h3>
                         {% for missa in missao %}
                         <p class="text-center wow fadeInDown">{{missa.missao}}</p>
                         {% endfor %}
                         
                     </div>
-                    <div class="col-sm-6 section-header">
-                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                    <div class="col-sm-6 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <h3 class="column-title">Nossos Valores</h3>
                         {% for valore in valores %}
                         <p class="text-center wow fadeInDown">{{valore.valores}}</p>
                         {% endfor %}

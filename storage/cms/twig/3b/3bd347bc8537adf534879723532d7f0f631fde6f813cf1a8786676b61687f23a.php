@@ -50,34 +50,34 @@ class __TwigTemplate_f4179b6d98cc084eb920adfacdee610a05427c6d717a89cb084aad265ac
         // line 14
         echo "</section><!--/#main-slider-->
     
+<section id=\"blog\">
+    ";
+        // line 17
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("blogs"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 18
+        echo "</section><!--/#blog-->
 
 <section id=\"servicos\" >
     ";
-        // line 18
+        // line 21
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("servicos"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 19
+        // line 22
         echo "</section><!--/#services-->
 
 <section id=\"quemsomos\">
     ";
-        // line 22
+        // line 25
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("quemsomos"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 23
+        // line 26
         echo "</section><!--/#quemsomosr-->
     
 
-<section id=\"blog\">
-    ";
-        // line 27
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("blogs"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 28
-        echo "</section><!--/#blog-->
 
 <section id=\"contato\">
     ";
@@ -176,7 +176,7 @@ class __TwigTemplate_f4179b6d98cc084eb920adfacdee610a05427c6d717a89cb084aad265ac
 
     public function getDebugInfo()
     {
-        return array (  162 => 52,  159 => 51,  144 => 50,  140 => 49,  136 => 48,  132 => 47,  128 => 46,  124 => 45,  120 => 44,  116 => 43,  112 => 42,  108 => 41,  104 => 40,  99 => 37,  95 => 36,  89 => 32,  85 => 31,  80 => 28,  76 => 27,  70 => 23,  66 => 22,  61 => 19,  57 => 18,  51 => 14,  47 => 13,  42 => 10,  38 => 9,  31 => 4,  27 => 3,  23 => 1,);
+        return array (  162 => 52,  159 => 51,  144 => 50,  140 => 49,  136 => 48,  132 => 47,  128 => 46,  124 => 45,  120 => 44,  116 => 43,  112 => 42,  108 => 41,  104 => 40,  99 => 37,  95 => 36,  89 => 32,  85 => 31,  78 => 26,  74 => 25,  69 => 22,  65 => 21,  60 => 18,  56 => 17,  51 => 14,  47 => 13,  42 => 10,  38 => 9,  31 => 4,  27 => 3,  23 => 1,);
     }
 
     public function getSourceContext()
@@ -196,6 +196,9 @@ class __TwigTemplate_f4179b6d98cc084eb920adfacdee610a05427c6d717a89cb084aad265ac
     {% partial \"slides\" %}
 </section><!--/#main-slider-->
     
+<section id=\"blog\">
+    {% partial \"blogs\" %}
+</section><!--/#blog-->
 
 <section id=\"servicos\" >
     {% partial \"servicos\" %}
@@ -206,9 +209,6 @@ class __TwigTemplate_f4179b6d98cc084eb920adfacdee610a05427c6d717a89cb084aad265ac
 </section><!--/#quemsomosr-->
     
 
-<section id=\"blog\">
-    {% partial \"blogs\" %}
-</section><!--/#blog-->
 
 <section id=\"contato\">
     {% partial \"contato\" %}

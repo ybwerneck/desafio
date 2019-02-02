@@ -31,7 +31,7 @@ class __TwigTemplate_38d51cdd760e11d79526d2ad3669db378708e6f5cd946910bde2f445861
                     </button>
                     <a class=\"navbar-brand\" href=\"/desafio/index.php#home\"><img src=\"";
         // line 10
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo4.png");
         echo "\" alt=\"logo\"></a>
                 </div>
 \t\t\t\t
@@ -74,7 +74,7 @@ class __TwigTemplate_38d51cdd760e11d79526d2ad3669db378708e6f5cd946910bde2f445861
                         <span class=\"icon-bar\"></span>
                         <span class=\"icon-bar\"></span>
                     </button>
-                    <a class=\"navbar-brand\" href=\"/desafio/index.php#home\"><img src=\"{{ 'assets/images/logo.png'|theme }}\" alt=\"logo\"></a>
+                    <a class=\"navbar-brand\" href=\"/desafio/index.php#home\"><img src=\"{{ 'assets/images/logo4.png'|theme }}\" alt=\"logo\"></a>
                 </div>
 \t\t\t\t
                 <div class=\"collapse navbar-collapse navbar-right\">

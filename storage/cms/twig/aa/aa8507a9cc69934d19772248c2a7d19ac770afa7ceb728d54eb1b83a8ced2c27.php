@@ -48,9 +48,9 @@ class __TwigTemplate_e7e26fc34f20246d6cbbc4542214c055e5524975124697b58be13d90def
         // line 12
         echo "            </div>   
             
-            <div class=\"row\" >
-                    <div class=\"col-sm-6 section-header\">
-                        <h2 class=\"section-title text-center wow fadeInDown\">Nossa Missão</h2>
+            <div class=\"row quemsomos\" >
+                    <div class=\"col-sm-6 wow fadeInRight animated\" style=\"visibility: visible; animation-name: fadeInLeft;\">
+                        <h3 class=\"column-title\">Nossa Missão</h3>
                         ";
         // line 17
         $context['_parent'] = $context;
@@ -68,8 +68,8 @@ class __TwigTemplate_e7e26fc34f20246d6cbbc4542214c055e5524975124697b58be13d90def
         // line 20
         echo "                        
                     </div>
-                    <div class=\"col-sm-6 section-header\">
-                        <h2 class=\"section-title text-center wow fadeInDown\">Nossos Valores</h2>
+                    <div class=\"col-sm-6 wow fadeInLeft animated\" style=\"visibility: visible; animation-name: fadeInRight;\">
+                        <h3 class=\"column-title\">Nossos Valores</h3>
                         ";
         // line 24
         $context['_parent'] = $context;
@@ -119,16 +119,16 @@ class __TwigTemplate_e7e26fc34f20246d6cbbc4542214c055e5524975124697b58be13d90def
                 {% endfor %}
             </div>   
             
-            <div class=\"row\" >
-                    <div class=\"col-sm-6 section-header\">
-                        <h2 class=\"section-title text-center wow fadeInDown\">Nossa Missão</h2>
+            <div class=\"row quemsomos\" >
+                    <div class=\"col-sm-6 wow fadeInRight animated\" style=\"visibility: visible; animation-name: fadeInLeft;\">
+                        <h3 class=\"column-title\">Nossa Missão</h3>
                         {% for missa in missao %}
                         <p class=\"text-center wow fadeInDown\">{{missa.missao}}</p>
                         {% endfor %}
                         
                     </div>
-                    <div class=\"col-sm-6 section-header\">
-                        <h2 class=\"section-title text-center wow fadeInDown\">Nossos Valores</h2>
+                    <div class=\"col-sm-6 wow fadeInLeft animated\" style=\"visibility: visible; animation-name: fadeInRight;\">
+                        <h3 class=\"column-title\">Nossos Valores</h3>
                         {% for valore in valores %}
                         <p class=\"text-center wow fadeInDown\">{{valore.valores}}</p>
                         {% endfor %}

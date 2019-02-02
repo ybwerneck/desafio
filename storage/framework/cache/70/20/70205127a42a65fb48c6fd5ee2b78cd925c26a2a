@@ -1,4 +1,4 @@
-1548988542a:1:{s:9:"blogs.htm";a:7:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:3392:"[blogPosts]
+1549143272a:1:{s:9:"blogs.htm";a:7:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:3391:"[blogPosts]
 pageNumber = "{{ :page }}"
 postsPerPage = 10
 noPostsMessage = "No posts found"
@@ -12,7 +12,7 @@ postPage = "home"
 
     <div class="section-header">
             
-            {
+            
                     
                 <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
                 <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -74,11 +74,11 @@ postPage = "home"
                 </div>
             </div>
 
-        </div>";s:5:"mtime";i:1548987939;s:6:"markup";s:3205:"<div class="container">
+        </div>";s:5:"mtime";i:1549127356;s:6:"markup";s:3204:"<div class="container">
 
     <div class="section-header">
             
-            {
+            
                     
                 <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
                 <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>

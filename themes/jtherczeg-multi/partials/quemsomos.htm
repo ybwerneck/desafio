@@ -43,16 +43,16 @@ pageNumber = "{{ :page }}"
                 {% endfor %}
             </div>   
             
-            <div class="row" >
-                    <div class="col-sm-6 section-header">
-                        <h2 class="section-title text-center wow fadeInDown">Nossa Missão</h2>
+            <div class="row quemsomos" >
+                    <div class="col-sm-6 wow fadeInRight animated" style="visibility: visible; animation-name: fadeInLeft;">
+                        <h3 class="column-title">Nossa Missão</h3>
                         {% for missa in missao %}
                         <p class="text-center wow fadeInDown">{{missa.missao}}</p>
                         {% endfor %}
                         
                     </div>
-                    <div class="col-sm-6 section-header">
-                        <h2 class="section-title text-center wow fadeInDown">Nossos Valores</h2>
+                    <div class="col-sm-6 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <h3 class="column-title">Nossos Valores</h3>
                         {% for valore in valores %}
                         <p class="text-center wow fadeInDown">{{valore.valores}}</p>
                         {% endfor %}

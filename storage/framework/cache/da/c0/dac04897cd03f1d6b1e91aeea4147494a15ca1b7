@@ -1,4 +1,4 @@
-1548988128a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1877:"description = "Default layout"
+1549143272a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1877:"description = "Default layout"
 
 [contactForm]
 injectBootstrapAssets = 1
@@ -19,6 +19,9 @@ injectMainScript = 1
     {% partial "slides" %}
 </section><!--/#main-slider-->
     
+<section id="blog">
+    {% partial "blogs" %}
+</section><!--/#blog-->
 
 <section id="servicos" >
     {% partial "servicos" %}
@@ -29,9 +32,6 @@ injectMainScript = 1
 </section><!--/#quemsomosr-->
     
 
-<section id="blog">
-    {% partial "blogs" %}
-</section><!--/#blog-->
 
 <section id="contato">
     {% partial "contato" %}
@@ -57,7 +57,7 @@ injectMainScript = 1
 {% scripts %}
 
 </body>
-</html>";s:5:"mtime";i:1548982332;s:6:"markup";s:1775:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1549134828;s:6:"markup";s:1775:"<!DOCTYPE html>
 <html lang="en">
     {% partial "meta" %}
 
@@ -72,6 +72,9 @@ injectMainScript = 1
     {% partial "slides" %}
 </section><!--/#main-slider-->
     
+<section id="blog">
+    {% partial "blogs" %}
+</section><!--/#blog-->
 
 <section id="servicos" >
     {% partial "servicos" %}
@@ -82,9 +85,6 @@ injectMainScript = 1
 </section><!--/#quemsomosr-->
     
 
-<section id="blog">
-    {% partial "blogs" %}
-</section><!--/#blog-->
 
 <section id="contato">
     {% partial "contato" %}

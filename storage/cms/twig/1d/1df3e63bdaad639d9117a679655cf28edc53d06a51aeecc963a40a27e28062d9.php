@@ -49,7 +49,7 @@ class __TwigTemplate_6c39d0c5e08c28ff2193324c562e52d08fcb65c5e8c7e454c7130a70374
     <![endif]-->       
     <link rel=\"shortcut icon\" href=\"";
         // line 23
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/ico/favicon.ico");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/ico/favicon2.ico");
         echo "\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"";
         // line 24
@@ -109,7 +109,7 @@ class __TwigTemplate_6c39d0c5e08c28ff2193324c562e52d08fcb65c5e8c7e454c7130a70374
     <script src=\"assets/js/html5shiv.js\"></script>
     <script src=\"assets/js/respond.min.js\"></script>
     <![endif]-->       
-    <link rel=\"shortcut icon\" href=\"{{ 'assets/images/ico/favicon.ico'|theme }}\">
+    <link rel=\"shortcut icon\" href=\"{{ 'assets/images/ico/favicon2.ico'|theme }}\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"{{ 'images/ico/apple-touch-icon-144-precomposed.png'|theme }}\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"{{ 'images/ico/apple-touch-icon-114-precomposed.png'|theme }}\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"{{ 'images/ico/apple-touch-icon-72-precomposed.png'|theme }}\">
