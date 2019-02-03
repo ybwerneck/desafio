@@ -1,4 +1,52 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(http://fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(http://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(http://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(http://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(http://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(http://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+
 /*
 Template Name: Multi
 Version: 1.0
@@ -10,7 +58,7 @@ Author URL: http://shapebootstrap.net
 **************************/
 body {
   padding-top: 100px;
-  background: #fff;
+  background: rgb(248, 248, 248);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #64686d;
@@ -169,7 +217,7 @@ ul.nostyle i {
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: rgba(59, 59, 59, 0.1);
+    background: rgba(255, 255, 255, 0.9);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
@@ -220,12 +268,10 @@ ul.nostyle i {
     color: #171A39;
     background-color: transparent;
   }
-}
-@media (max-width: 768px){
-    .logo-nav{
-      display: none;
-    }
+  .logo-nav{
+    display: none;
   }
+}
 #main-slider {
   overflow: hidden;
 }
@@ -310,7 +356,7 @@ ul.nostyle i {
   margin-top: 40px;
 }
 #cta2 {
-  background: #242a33 url(../images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
+  background: #242a33 url(../../themes/jtherczeg-multi/assets/images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
   background-size: cover;
   color: #fff;
   padding-top: 70px;
@@ -523,7 +569,7 @@ ul.nostyle i {
   transition: none;
 }
 #testimonial {
-  background: #333333 url(../images/testimonial/bg.jpg) no-repeat 0 0;
+  background: #333333 url(../../themes/jtherczeg-multi/assets/images/testimonial/bg.jpg) no-repeat 0 0;
   background-size: cover;
   padding: 100px 0;
   color: #fff;
@@ -545,7 +591,7 @@ ul.nostyle i {
 }
 #work-process {
   padding: 100px 0 50px;
-  background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
+  background: #20222e url(../../themes/jtherczeg-multi/assets/images/work-process/bg.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
 }
@@ -684,7 +730,7 @@ ul.nostyle i {
 }
 #animated-number {
   padding: 100px 0 70px;
-  background: #132125 url(../images/animated-number/bg.jpg) no-repeat 0 0;
+  background: #132125 url(../../themes/jtherczeg-multi/assets/images/animated-number/bg.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
 }

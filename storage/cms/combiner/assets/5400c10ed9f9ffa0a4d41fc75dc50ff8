@@ -10,7 +10,7 @@ Author URL: http://shapebootstrap.net
 **************************/
 body {
   padding-top: 100px;
-  background: #fff;
+  background: rgb(248, 248, 248);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #64686d;
@@ -169,7 +169,7 @@ ul.nostyle i {
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: rgba(59, 59, 59, 0.1);
+    background: rgba(255, 255, 255, 0.9);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }

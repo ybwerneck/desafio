@@ -1,4 +1,4 @@
-1549143212a:1:{s:13:"quemsomos.htm";a:9:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:2150:"[viewBag]
+1549222420a:1:{s:13:"quemsomos.htm";a:9:{s:8:"fileName";s:13:"quemsomos.htm";s:7:"content";s:2150:"[viewBag]
 
 [builderList]
 modelClass = "BraulioBarros\QuemSomos\Models\Missao"
@@ -58,7 +58,7 @@ pageNumber = "{{ :page }}"
                         {% endfor %}
                     </div>
             </div>
-";s:5:"mtime";i:1549142511;s:6:"markup";s:1364:"{% set quemsomos = builderList.records %}
+";s:5:"mtime";i:1549154926;s:6:"markup";s:1364:"{% set quemsomos = builderList.records %}
 {% set missao = builderList2.records %}
 {% set valores = builderList3.records %}
 

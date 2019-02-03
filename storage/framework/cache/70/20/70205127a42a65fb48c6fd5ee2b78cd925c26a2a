@@ -1,4 +1,4 @@
-1549143272a:1:{s:9:"blogs.htm";a:7:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:3391:"[blogPosts]
+1549222420a:1:{s:9:"blogs.htm";a:7:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:3391:"[blogPosts]
 pageNumber = "{{ :page }}"
 postsPerPage = 10
 noPostsMessage = "No posts found"
@@ -74,7 +74,7 @@ postPage = "home"
                 </div>
             </div>
 
-        </div>";s:5:"mtime";i:1549127356;s:6:"markup";s:3204:"<div class="container">
+        </div>";s:5:"mtime";i:1549154926;s:6:"markup";s:3204:"<div class="container">
 
     <div class="section-header">
             

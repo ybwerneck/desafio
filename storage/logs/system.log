@@ -6166,3 +6166,6 @@ Stack trace:
 #38 C:\xampp\htdocs\desafio\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #39 C:\xampp\htdocs\desafio\index.php(43): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #40 {main}  
+[2019-02-03 18:35:52] dev.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\desafio\vendor\laravel\framework\src\Illuminate\Support\Manager.php:8
+Stack trace:
+#0 {main}  
